@@ -9,6 +9,8 @@
 
 <p>A biblioteca da suporte em situações em que você deseja executar consultas SQL brutas ou expressões que não podem ser expressas facilmente usando os métodos de consulta padrão do Knex por meio da fução .raw().</p>
 
+<p>A aplicação faz uso de uma base de dados com 4 tabelas: Agenda, farmacia, usuários e anotações (Utilizei o beekeeper para interface do banco e o insominia para as rodar as rotas), as operações de CRUD é realizadas na aplicação node.js</p>
+
 <h2>🛠️ Tecnologias Utilizadas</h2>
 
 <ul>
@@ -22,7 +24,7 @@
 <h2>🌟 Recursos</h2>
 
 <h3>Rotas:</h3>
-<p>A aplicação conta com recursos de rotas definidas para manipulação de recursos utilizando os verbos GET, POST, PUT, DELETE.</p>
+<p>A aplicação conta com definições de rotas para manipulação de recursos utilizando os verbos GET, POST, PUT, DELETE.</p>
 
 <h3>Controladores:</h3>
 <p>Que lidam com as requisições HTTP e interagem com o banco de dados usando o Knex. Eles são responsáveis por processar os dados recebidos e retornar as respostas apropriadas.</p>
