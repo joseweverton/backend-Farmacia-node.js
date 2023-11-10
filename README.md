@@ -9,7 +9,7 @@
 
 <p>A biblioteca da suporte em situações em que você deseja executar consultas SQL brutas ou expressões que não podem ser expressas facilmente usando os métodos de consulta padrão do Knex por meio da fução .raw().</p>
 
-<p>A aplicação faz uso de uma base de dados com 4 tabelas: Agenda, farmacia, usuários e anotações (Utilizei o beekeeper para interface do banco e o insominia para as rodar as rotas), as operações de CRUD é realizadas na aplicação node.js</p>
+<p>A aplicação faz uso de uma base de dados com 4 tabelas: Agenda, farmacia, usuários e anotações. Utilizei o beekeeper para interface do banco e o insomnia para executar as rotas</p>
 
 <h2>🛠️ Tecnologias Utilizadas</h2>
 
